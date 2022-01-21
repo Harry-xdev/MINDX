@@ -4,6 +4,7 @@ function render_header() {
     mainPage.innerHTML += `
     <div id="header"></div>
     `;
+
     // RENDER HEADER NATIVE BUTTON - USER LOGIN
     const headerNative = document.querySelector('#header');
     function render_header_native() {
@@ -23,8 +24,26 @@ render_header();
 // RENDER MAIN SECTION
 function render_main_section () {
     mainPage.innerHTML += `
-    <section id="section__container"></section>
+    <div id="section__container"></div>
     `;
+
+    // RENDER SECTION ITEMS
+    const section1 = document.querySelector('#section__container');
+    function render_section_1() {
+        section1.innerHTML += `
+        <section>Section 1</section>
+        `;
+    };
+    render_section_1();
+
+    const section2 = document.querySelector('#section__container');
+    function render_section_2() {
+        section2.innerHTML += `
+        <section>Section 2</section>
+        `;
+    };
+    render_section_2();
+    
 };
 render_main_section();
 

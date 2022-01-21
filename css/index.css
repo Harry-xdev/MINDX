@@ -15,6 +15,19 @@ body {
     background-color: rgb(201, 201, 201);
 }
 
+section {
+    width: 1440px;
+    height: 1000px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 #header {
     height: 80px;
     background-color: rgb(255, 255, 255);
