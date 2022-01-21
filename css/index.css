@@ -50,3 +50,25 @@ body {
     position: absolute;
     right: 0;
 }
+
+#mainFooter {
+    width: 1440px;
+    height: 454px;
+    background-color: rgb(170, 218, 218);
+    margin: auto;
+}
+
+.contact__container {
+    width: 1440px;
+    height: 380px;
+    background-color: rgba(67, 105, 70, 0.384);
+    color: white;
+    text-align: center;
+}
+#copyrightInfo {
+    width: 1440px;
+    height: 74px;
+    background-color: rgba(121, 120, 70, 0.171);
+    color: white;
+    text-align: center;
+}
