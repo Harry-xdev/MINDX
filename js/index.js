@@ -4,6 +4,7 @@ function render_header() {
     mainPage.innerHTML += `
     <div id="header"></div>
     `;
+    // RENDER HEADER NATIVE BUTTON - USER LOGIN
     const headerNative = document.querySelector('#header');
     function render_header_native() {
         headerNative.innerHTML += `
@@ -14,17 +15,18 @@ function render_header() {
         <a class="native" href="#">Wishlist</a>
         <span id="user__container"><a href="#">Login</a><a href="#">Register</a></span>
         `;
-    }
+    };
     render_header_native();
-}
+};
 render_header();
 
 // RENDER MAIN SECTION
 function render_main_section () {
     mainPage.innerHTML += `
-    <section></section>
-    `
-}
+    <section id="section__container"></section>
+    `;
+};
+render_main_section();
 
 // RENDER FOOTER
 const mainFooter = document.querySelector('#mainFooter');
@@ -38,9 +40,9 @@ function render_footer() {
         <div class="contact__container">CONTACT INFORMATION DIV</div>
         <div id="copyrightInfo">Copyright | MindX | C4EJS126</div>
         `;
-    }
+    };
     render_contact_container();
-}
+};
 render_footer();
 
 
