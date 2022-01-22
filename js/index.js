@@ -9,8 +9,8 @@ function render_header() {
     const headerNative = document.querySelector('#header');
     function render_header_native() {
         headerNative.innerHTML += `
-        <a id="logo__main" href="#">TEAM 1 - GROUP 6.</a>
-        <a class="native" href="#">Men</a>
+        <a id="logo__main" class="" href="#">TEAM 1 - GROUP 6.</a>
+        <a id="" class="native" href="#">Men</a>
         <a class="native" href="#">Women</a>
         <a class="native" href="#">About us</a>
         <a class="native" href="#">Wishlist</a>
