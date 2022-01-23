@@ -31,7 +31,7 @@ function render_main_section () {
     const section1 = document.querySelector('#section__container');
     function render_section_1() {
         section1.innerHTML += `
-        <section>Section 1</section>
+        <section id="" class="section__1">Section 1</section>
         `;
     };
     render_section_1();
@@ -39,10 +39,26 @@ function render_main_section () {
     const section2 = document.querySelector('#section__container');
     function render_section_2() {
         section2.innerHTML += `
-        <section>Section 2</section>
+        <section id="" class="section__2">Section 2</section>
         `;
     };
     render_section_2();
+
+    const section3 = document.querySelector('#section__container');
+    function render_section_3() {
+        section3.innerHTML += `
+        <section id="" class="section__3">Section 3</section>
+        `;
+    };
+    render_section_3();
+
+    const section4 = document.querySelector('#section__container');
+    function render_section_4() {
+        section4.innerHTML += `
+        <section id="" class="section__4">Section 4</section>
+        `;
+    };
+    render_section_4();
     
 };
 render_main_section();
