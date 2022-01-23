@@ -88,3 +88,16 @@ section {
     color: white;
     text-align: center;
 }
+
+/* SECTION 4 CSS TUAN ANH */
+#section4__container1 {
+    background-color: rgb(191, 243, 243);
+    height: 500px;
+    width: 1240px;
+}
+
+.handbag__product {
+    height: 350px;
+    width: 250px;
+    background-color: blueviolet;
+}
