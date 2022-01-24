@@ -33,10 +33,19 @@ function render_main_section () {
     const section1 = document.querySelector('#section__container');
     function render_section_1() {
         section1.innerHTML += `
-        <section id="" class="section__1">Section 1</section>
+        <section id="" class="section__1"> Fashion
+        <div>
+        <button  type="button"  onclick="location.href='./Fashion.html';"> find more  </button>
+        </div>
+
+        </section>
+        
         `;
     };
     render_section_1();
+
+
+
 
     // SECTION 2: TRUNG
     const section2 = document.querySelector('#section__container');
