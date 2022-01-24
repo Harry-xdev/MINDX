@@ -14,7 +14,7 @@ function render_header() {
         <a class="native" href="#">Women</a>
         <a class="native" href="#">About us</a>
         <a class="native" href="#">Wishlist</a>
-        <span id="user__container"><a href="#">Login</a><a href="#">Register</a></span>
+        <a id="user__container" href="#">Login</a><a href="#">Register</a>
         `;
     };
     render_header_native();
