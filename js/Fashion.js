@@ -37,7 +37,7 @@ function main_page_fashion() {
         const mainPageFashion = document.querySelector('#mainPageFashion');
         function fashion_sections() {
             mainPageFashion.innerHTML += `
-            <video  controls (autoplay ) loop="" playsinline=""> <source
+            <video  controls autoplay loop="" playsinline=""> <source
             src = "https://www.dior.com/couture/var/dior/storage/original/video/0fdbdfb57a18fb353efd235ba5df5de1.mp4"> 
             poster="https://www.dior.com/couture/var/dior/storage/images/30536758/25-eng-GB/fashion-show-banner2_1440_1200.jpg"</video>
             <div id=fashionSelections>
