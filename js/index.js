@@ -35,7 +35,7 @@ function render_main_section () {
         section1.innerHTML += `
         <section id="" class="section__1"> Fashion
         <div>
-        <button  type="button"  onclick="location.href='./Fashion.html';"> find more  </button>
+        <button  type="button"  onclick="location.href='./Fashion.html"> find more  </button>
         </div>
 
         </section>
